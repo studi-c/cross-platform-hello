@@ -5,5 +5,5 @@
 #	of C++ and some do not.
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-project (fizzbuzz C CXX)
-add_executable(fizzbuzz fizzbuzz.cpp)
+project (cross-platform-hello C CXX)
+add_executable(cross-platform-hello fizzbuzz.cpp)
