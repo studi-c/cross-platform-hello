@@ -46,7 +46,7 @@ Install MingGW, Git, and Cmake.  Launch a command line with the path including G
     git clone https://github.com/studi-c/cross-platform-hello.git
     cd cross-platform-hello/build
     cmake -G "MinGW Makefiles" ..
-    mingw-make
+    mingw32-make
     cross-platform-hello
 ```
 
